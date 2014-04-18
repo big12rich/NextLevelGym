@@ -2,7 +2,9 @@
 <resources>
 
     <string name="app_name">Next Level Gym App</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="LogIn">Log In</string>
+    <string name="UserRegister">New User Register</string>
+    <string name="UserName">User:</string>
+    <string name="PassWord">Password:</string>
 
 </resources>
