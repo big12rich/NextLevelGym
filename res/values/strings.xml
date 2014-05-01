@@ -2,7 +2,29 @@
 <resources>
 
     <string name="app_name">Next Level Gym App</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_button">Login</string>
+    <string name="dummy_content">Welcome to the Next Level Gym App</string>
+    <string name="title_activity_track_workout">TrackWorkout</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Welcome!</string>
+    <string name="title_activity_bicep_curl">BicepCurl</string>
+    <string name="bicep_curl">Bicep Curls</string>
+    <string name="enter_weight">Enter Weight (in pounds)</string>
+    <string name="enter_reps">Enter Number of Reps</string>
+    <string name="save">Save</string>
+    <string name="title_activity_skull_crusher">SkullCrusher</string>
+    <string name="skull_crusher">Skull Crusher</string>
+    <string name="bench_press">Bench Press</string>
+    <string name="squats">Squats</string>
+    <string name="leg_press">Leg Press</string>
+    <string name="title_activity_leg_press">LegPress</string>
+    <string name="title_activity_squats">Squats</string>
+    <string name="title_activity_bench_press">BenchPress</string>
+    <string name="title_activity_bmicalc">BMICalc</string>
+    <string name="select_workout">Select a Workout</string>
+    <string name="bmi_calc">BMI Calculator</string>
+    <string name="enter_height">Enter Height (in inches)</string>
+    <string name="bmi">Your current BMI is: </string>
+    <string name="calc_bmi">Calculate my BMI</string>
 
 </resources>

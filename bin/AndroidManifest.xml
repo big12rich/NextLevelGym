@@ -24,6 +24,71 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.HowdenCharles.nextlevelgymapp.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName="com.HowdenCharles.nextlevelgymapp.ScreenAct"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.HowdenCharles.nextlevelgymapp.ScreenAct" />
+        </activity>
+        <activity
+            android:name="com.HowdenCharles.nextlevelgymapp.TrackWorkout"
+            android:label="@string/title_activity_track_workout"
+            android:parentActivityName="com.HowdenCharles.nextlevelgymapp.ScreenAct" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.HowdenCharles.nextlevelgymapp.ScreenAct" />
+        </activity>
+        <activity
+            android:name="com.HowdenCharles.nextlevelgymapp.BicepCurl"
+            android:label="@string/title_activity_bicep_curl"
+            android:parentActivityName="com.example.nextlevelgym.TrackWorkout" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nextlevelgym.TrackWorkout" />
+        </activity>
+        <activity
+            android:name="com.HowdenCharles.nextlevelgymapp.SkullCrusher"
+            android:label="@string/title_activity_skull_crusher"
+            android:parentActivityName="com.example.nextlevelgym.TrackWorkout" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nextlevelgym.TrackWorkout" />
+        </activity>
+        <activity
+            android:name="com.HowdenCharles.nextlevelgymapp.LegPress"
+            android:label="@string/title_activity_leg_press"
+            android:parentActivityName="com.example.nextlevelgym.TrackWorkout" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nextlevelgym.TrackWorkout" />
+        </activity>
+        <activity
+            android:name="com.HowdenCharles.nextlevelgymapp.Squats"
+            android:label="@string/title_activity_squats"
+            android:parentActivityName="com.example.nextlevelgym.TrackWorkout" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nextlevelgym.TrackWorkout" />
+        </activity>
+        <activity
+            android:name="com.HowdenCharles.nextlevelgymapp.BenchPress"
+            android:label="@string/title_activity_bench_press"
+            android:parentActivityName="com.example.nextlevelgym.TrackWorkout" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nextlevelgym.TrackWorkout" />
+        </activity>
+        <activity
+            android:name="com.HowdenCharles.nextlevelgymapp.BMICalc"
+            android:label="@string/title_activity_bmicalc"
+            android:parentActivityName="com.HowdenCharles.nextlevelgymapp.LoginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.HowdenCharles.nextlevelgymapp.LoginActivity" />
+        </activity>
     </application>
 
 </manifest>
