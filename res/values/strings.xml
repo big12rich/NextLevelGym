@@ -26,5 +26,14 @@
     <string name="enter_height">Enter Height (in inches)</string>
     <string name="bmi">Your current BMI is: </string>
     <string name="calc_bmi">Calculate my BMI</string>
+    <string name="hit_save">Don\'t forget to hit save after each set</string>
+
+    <string-array name="sets_array">
+        <item>Set 1</item>
+        <item>Set 2</item>
+        <item>Set 3</item>
+    </string-array>
+
+    <string name="title_activity_workout_report">WorkoutReport</string>
 
 </resources>

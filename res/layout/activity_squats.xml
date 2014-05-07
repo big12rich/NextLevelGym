@@ -70,4 +70,11 @@
         android:layout_marginTop="27dp"
         android:src="@drawable/proper_squat" />
 
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button1"
+            android:layout_alignLeft="@+id/editText2" />
+
 </RelativeLayout>
